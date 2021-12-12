@@ -23,8 +23,11 @@ mongoose.connect(config.mongoURL,
     .catch(err => console.log(err));
 
 
-
 app.get('/', (req, res) => res.send('hello wass!!'))
+
+app.get('/api/hello', (req,res) => {
+    res.send("Hello world")
+})
 
 
 app.post('/api/users/register', (req, res) => {

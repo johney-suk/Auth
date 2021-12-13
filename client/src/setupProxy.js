@@ -9,7 +9,7 @@ module.exports = function (app) {
         })
     );
 };
-
+// http-proxy-middleware 1.0.0 vserison↑ format
 // const { createProxyMiddleware } = require('http-proxy-middleware');
 
 // module.exports = function(app) {

@@ -4,7 +4,7 @@
 /dev.js
 ./server/confing/*.js
 ../server/confing/*.js
-
+.dev.js
 # dependencies
 /node_modules
 /.pnp

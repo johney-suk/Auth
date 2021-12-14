@@ -2,7 +2,9 @@
 # database
 /database.json
 /dev.js
-/server/confing/*.js
+./server/confing/*.js
+../server/confing/*.js
+
 # dependencies
 /node_modules
 /.pnp
